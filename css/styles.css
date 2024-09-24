@@ -1,3 +1,4 @@
+
 /* General Styles */
 body {
     font-family: "Roboto", sans-serif;
@@ -64,8 +65,6 @@ p {
     background-color: #404BBF;
 }
 
-
-
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -74,12 +73,12 @@ p {
 /* Section Spacing */
 .section {
     padding: 60px 0;
-dl {
+    dl {
         display: flex;
         gap: 10px;
     }
-    
-dl div {
+
+    dl div {
         display: flex;
         flex-direction: column;
     }
@@ -194,7 +193,7 @@ header .contacts a:hover {
     padding: 10px;
 }
 
-/* Secțiunea "What Are We Doing" */
+/* Secțion "What Are We Doing" */
 .what-we-are-doing {
     padding: 60px 0;
     text-align: center;
@@ -208,7 +207,7 @@ header .contacts a:hover {
     margin-bottom: 40px;
 }
 
-/* Galeria de imagini */
+/* Image galery */
 .image-gallery {
     display: flex;
     justify-content: center;
@@ -222,10 +221,10 @@ header .contacts a:hover {
 
 .image-item img {
     max-width: 100%;
-    border-radius: 10px; 
+    border-radius: 0px; 
 }
 
-/* Secțiunea "Our Team" */
+/* Section "Our Team" */
 .team-section {
     padding: 60px 0;
     background-color: #f4f4fd;
@@ -240,7 +239,7 @@ header .contacts a:hover {
     margin-bottom: 40px;
 }
 
-/* Container pentru echipă */
+/* Team container*/
 .team {
     display: flex;
     justify-content: space-between;
@@ -249,9 +248,9 @@ header .contacts a:hover {
 
 .team-member {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 0px;
     width: 100%;
     max-width: 250px;
     text-align: center;
@@ -263,15 +262,14 @@ header .contacts a:hover {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Stilizarea imaginilor echipei */
+/* Design Team */
 .team-member img {
     width: 100%;
     height: auto;
-    border-radius: 8px 8px 0 0;
     margin-bottom: 15px;
 }
 
-/* Stilizarea textului pentru nume și rol */
+
 .team-member h3 {
     font-family: "Roboto", sans-serif;
     font-size: 1.25rem;
@@ -287,7 +285,32 @@ header .contacts a:hover {
     color: #2E2F42;
 }
 
-/* Portfolio */
+/* Portfolio Section */
+.portfolio.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Button Styles for Portfolio Section */
+.portfolio-filters button {
+    background-color: #F4F4FD; 
+    color: #4D5AE5; 
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.portfolio-filters button:hover {
+    background-color: #404BBF; 
+    color: #FFFFFF; 
+}
+
+/* Portfolio Filters Layout */
 .portfolio-filters {
     display: flex;
     justify-content: center;
@@ -309,7 +332,7 @@ header .contacts a:hover {
 
 /* Image Styles */
 .portfolio-list img {
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 /* Footer */
@@ -334,8 +357,3 @@ footer .logo img {
     display: flex;
     flex-direction: column;
 }
-
-
-
-
-
